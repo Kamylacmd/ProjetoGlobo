@@ -24,6 +24,13 @@ function Icons({ onSelectTemplate }) {
         alt="NE2"
         onClick={() => onSelectTemplate('ne2')}
       />
+      <img
+        className="icons-container"
+        id='ge'
+        src="./src/assets/icons/geIcon.png"
+        alt="ge"
+        onClick={() => onSelectTemplate('ge')}
+      />
     </div>
   );
 }

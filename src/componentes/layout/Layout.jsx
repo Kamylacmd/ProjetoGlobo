@@ -15,7 +15,8 @@ function Layout({ onGenerate }) {
     const templateMap = {
       bomdiape: "bomdiape.png",
       ne1: "ne1.png",
-      ne2: "ne2.png"
+      ne2: "ne2.png",
+      ge: "ge.png"
     };
     setSelectedTemplate(templateMap[id]);
   };
