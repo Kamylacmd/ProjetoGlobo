@@ -1,0 +1,20 @@
+header{
+  background-color: #8c36a1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-radius: 0 0 0.7rem 0.7rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  color: rgb(251, 251, 251);
+  font-weight: bolder;
+  font-size: 1.8rem;
+}
+
+p{
+  color: rgba(247, 247, 247, 0.623);
+  font-family: 'Inter';
+}

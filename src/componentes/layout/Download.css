@@ -1,0 +1,49 @@
+.btns-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-back {
+    background-color: #fcfcfc;
+    border: none;
+    color: #8c36a1;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #8c36a1;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+    cursor: pointer;
+    scale: 1.095;
+}
+.btn-download {
+    background-color: #8c36a1;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: #833591;
+    cursor: pointer;
+    scale: 1.095;
+}

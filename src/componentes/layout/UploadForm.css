@@ -1,0 +1,17 @@
+.upload-label {
+  background-color: #0f0f0f4f;
+  font-family: 'Inter';
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  transition: all 0.4s ease;
+}
+
+.upload-label:hover{
+    scale: 1.05;
+    cursor: pointer;
+    background-color: #0f0f0f70;
+}

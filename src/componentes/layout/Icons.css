@@ -1,0 +1,27 @@
+.images-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+img{
+    width: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+img:hover{
+    background-color: rgb(40, 42, 46);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.icons-container {
+    background-color: rgb(46, 48, 51);
+    padding: 0.6rem;
+    width: 30px;
+    width: 100px;
+    border-radius: 0.5rem;
+}
